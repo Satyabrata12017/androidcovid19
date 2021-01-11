@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homebottom"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"/>
+    <item android:id="@+id/statusbottom"
+        android:icon="@drawable/ic_status"
+        android:title="Status"/>
+    <item android:id="@+id/centerbottom"
+        android:icon="@drawable/ic_center_covid"
+        android:title="Center"/>
+    <item android:id="@+id/notificationbottom"
+        android:icon="@drawable/ic_add_alert"
+        android:iconTint="@color/colorBlack"
+        android:title="Notification"/>
+    <item android:id="@+id/profilebottom"
+        android:icon="@drawable/ic_person"
+        android:iconTint="@color/colorBlack"
+        android:title="Profile"/>
+
+</menu>

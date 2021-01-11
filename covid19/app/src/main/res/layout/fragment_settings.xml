@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#454545"
+
+    tools:context=".settingsFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="true"
+        android:text="Settings"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_settings"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/profilesetting"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textColor="@color/colorSignUp"
+            android:textAllCaps="false"
+            android:text="Profile Setting"
+            android:background="@drawable/resource2"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/privacysettings"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Privacy Setting"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/buttonbackground"
+            android:textColor="@color/colorSignUp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/deleteaccount"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorSignUp"
+            android:textAllCaps="false"
+            android:text="Delete Account"
+            android:background="@drawable/viewresource"
+            android:layout_gravity="center"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

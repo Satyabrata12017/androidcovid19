@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatusFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:textColor="@color/colorSignUp"
+            android:text="Status" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/buttonbackground"
+            android:padding="20dp">
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="My Country"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:background="@drawable/statisstic_resoucre"/>
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="Global"
+                android:textColor="@color/colorSignUp"
+                android:textStyle="bold"
+                android:background="@drawable/button_border"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/buttonbackground"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today"
+                android:background="@drawable/buttonbackground"
+                android:textColor="@color/colorSignUp"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yesterday"
+                android:background="@drawable/buttonbackground"
+                android:textColor="@color/colorSignUp"
+                android:layout_marginLeft="40dp"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 Days Ago"
+                android:background="@drawable/buttonbackground"
+                android:textColor="@color/colorSignUp"
+                android:layout_marginLeft="40dp"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/total_case">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Affected"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5000000"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/death">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Affected"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorBlack"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5000000"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorBlack"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:background="@drawable/recover">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Affected"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5000000"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorWhite"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:background="@drawable/active">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Affected"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5000000"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:background="@drawable/serious">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Affected"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5000000"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

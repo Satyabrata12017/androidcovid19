@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#EB1866</color>
+    <color name="colorLogin">#e6e600</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWave">#ff5500</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorSignUp">#000b76</color>
+    <color name="colorLightWhite">#D7DBDD </color>
+    <color name="colorphone">#FF000000</color>
+    <color name="topViewDashboard">#5000ca</color>
+    <color name="green">#0BF219</color>
+    <color name="resource1">#FADBD8</color>
+    <color name="resource2">#85C1E9</color>
+    <color name="Red">#F5200E</color>
+    <color name="totalcase">#EC970C </color>
+    <color name="recover">#0BF219</color>
+    <color name="active">#1398F3</color>
+    <color name="serious">#5000ca</color>
+</resources>

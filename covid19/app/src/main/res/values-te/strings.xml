@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">covid19</string>
+    <string name="image2">image2</string>
+    <string name="image1">image1</string>
+
+    <string name="lets_get_started">Lets get started</string>
+    <string name="first_slide_title_top">Each one of us has power to help prevent the spread of the Coronavirus pandemic in India.</string>
+    <string name="first_slide_title_down">Would you like to be kept informed if you have crossed paths with someone who has tested COVID-19 positive?</string>
+
+    <string name="second_slide_title_top">Each one of us has power to help prevent the spread of the Coronavirus pandemic in India.</string>
+    <string name="second_slide_title_down">Would you like to be kept informed if you have crossed paths with someone who has tested COVID-19 positive?</string>
+
+
+    <string name="third_slide_title_top">Each one of us has power to help prevent the spread of the Coronavirus pandemic in India.</string>
+    <string name="third_slide_title_down">Would you like to be kept informed if you have crossed paths with someone who has tested COVID-19 positive?</string>
+
+    <string name="fourth_slide_title_top">Each one of us has power to help prevent the spread of the Coronavirus pandemic in India.</string>
+    <string name="fourth_slide_title_down">Would you like to be kept informed if you have crossed paths with someone who has tested COVID-19 positive?</string>
+
+    <string name="skip_btn">skip</string>
+
+    <string name="todo">TODO</string>
+    <string name="button2">Buttonsatya</string>
+    <string name="button">Buttonnitesh</string>
+    <string name="skip">SKIP</string>
+
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="do_it_later">Do it Later</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="already">Already Have An Account ?</string>
+    <string name="email">EMAIL</string>
+    <string name="password">Password</string>
+    <string name="loginbtn">LOGIN</string>
+    <string name="textpassword">Password</string>
+    <string name="forgetpassword">Forget Password</string>
+    <string name="or">OR</string>
+    <string name="newuser">New User ? </string>
+    <string name="Register">Register Now</string>
+    <string name="create">Create Account</string>
+    <string name="enterfullname">Enter Fullname</string>
+    <string name="enterusername">Enter Username</string>
+    <string name="enteremail">Enter Email</string>
+    <string name="enterphonenumber">Enter Phone Number</string>
+    <string name="enterpassword">Enter Password</string>
+    <string name="createsignup">Create</string>
+    <string name="next">Next</string>
+    <string name="gender">Choose Gender</string>
+    <string name="gendername">Male</string>
+    <string name="gendername1">Female</string>
+    <string name="gendername2">Other</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="selectLang">Select Language</string>
+    <string name="back">Back</string>
+    <string name="select_your_age">Select Your Age</string>
+    <string name="otp_text">Code</string>
+    <string name="otp_text_verification">Verification</string>
+    <string name="otp_text_description">Enter OTP sent on +91-7077626024</string>
+    <string name="otp_text_button">Verify Code</string>
+    <string name="forget_password_description">Enter your Email for which you want to change your Password</string>
+    <string name="forget_password_button">Next</string>
+    <string name="forget_password_text">Make\nSelection</string>
+    <string name="forget_password_option_description">Select Which Detail We use to Reset Your Password</string>
+    <string name="via_sms">Via Sms :</string>
+    <string name="via_sms_desc">+91-7077626024</string>
+    <string name="via_email">Via Mail:</string>
+    <string name="via_email_desc">support@gmail.com</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_password_desc">Your identity is verified set your new password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_updated">Password Updated</string>
+    <string name="login_to_account">Login to your Account</string>
+    <string name="ok">Ok</string>
+    <string name="ViewDash">Covid19</string>
+</resources>
